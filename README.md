@@ -3,7 +3,7 @@
 
 Es gibt 2 Authentifizierungs-Möglichkeiten um auf das EUROPACE System zuzugreifen:
 * [Authentiﬁzierung mit Nutzername und Passwort](#nutzername-und-passwort)
-* Anmeldung via _Silent Sign On (SSO)_
+* [Anmeldung via _Silent Sign On (SSO)_](#silent-sign-on)
 
 Bei Fragen und Anregungen entweder ein Issue in GitHub anlegen oder an [devsupport@europace2.de](mailto:devsupport@europace2.de) schreiben.
 

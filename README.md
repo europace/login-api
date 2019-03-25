@@ -39,7 +39,7 @@ Partner-Webseite. Folgende Elemente sind zu Kopieren:
 
 Die Html Seite hat keinerlei externe Abhängigkeiten auf CSS oder Javascript Bibliotheken.
 
-![Eingebettete Login-Box von EUROPACE2](images/partner_login_box.png?raw=true)
+![Eingebettete Login-Box von EUROPACE2](https://raw.githubusercontent.com/europace/login-api/master/images/partner_login_box.png)
 
 
 ### Einloggen per HTTP POST Request

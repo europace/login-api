@@ -114,7 +114,7 @@ curl -v --insecure -X POST --cookie "sessionId=3f8a86fa02128b5265de9f1ec4b3c4be"
 # Silent Sign On
 
 
-_Silent Sign On_ in ein Verfahren, das es ermöglicht, einen Benutzer von einer Webseite zu BaufiSmart weiter zu leiten, ohne das sich dieser erneut anmelden muss.
+_Silent Sign On_ in ein Verfahren, dass es ermöglicht, einen Benutzer von einer Webseite zu BaufiSmart weiter zu leiten, ohne das sich dieser erneut anmelden muss.
 
 
 EUROPACE 2 nutzt dafür den Internet Standard [JWT](https://tools.ietf.org/html/draft-ietf-oauth-json-web-token-32).
@@ -171,5 +171,5 @@ Set-Cookie: sessionId=dd800897698f8e2637d5c39e33083764
 
 ## Alte SSO Verfahren
 
-Die alten SSO Verfahren sind :
-[hier dokumentiert](SSO-DEPRECATED)
+Die alten SSO Verfahren sind
+[hier dokumentiert](SSO-DEPRECATED.md)

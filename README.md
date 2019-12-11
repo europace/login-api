@@ -139,7 +139,7 @@ Bei den Credentials kann entweder
 
 
 
-## Einloggen via JWT mit Redirect
+## Einloggen mit Access Token als Request Parameter
 
 
 Der soeben erzeugte JWT kann nun zur Anmeldung an EUROPACE 2 verwendet werden.

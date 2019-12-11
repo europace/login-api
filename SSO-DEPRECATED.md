@@ -1,8 +1,6 @@
+## ⚠️ ACHTUNG: ALLE BESCHRIEBENEN VERFAHREN IN DIESEM DOKUMENT SIND DEPRECATED.⚠️
+
 _Silent Sign On_ in ein Verfahren, das es ermöglicht, einen Benutzer von einer Webseite zu BaufiSmart weiter zu leiten, ohne das sich dieser erneut anmelden muss.
-
-
-**ACHTUNG: ALLE BESCHRIEBENEN VERFAHREN IN DIESEM DOKUMENT SIND DEPRECATED.**
-
 
 EUROPACE 2 nutzt dafür den Internet Standard [JWT](https://tools.ietf.org/html/draft-ietf-oauth-json-web-token-32)
 und [JWS](https://tools.ietf.org/html/draft-ietf-jose-json-web-signature-41)

@@ -1,5 +1,7 @@
 # Login API
 
+⚠️ Hinweis: die Autorisierung für die Europace APIs und SSO an der Plattform werden aktuell grundlegend überarbeitet. Perspektivisch wird alles auf einen neuen OAuth-fähigen [Autorisierungs-Server](https://github.com/europace/authorization-api) umgestellt. Bei Fragen bitte an devsupport@europace2.de schreiben.
+
 
 Es gibt 2 Authentifizierungs-Möglichkeiten um auf das EUROPACE System zuzugreifen:
 * [Authentiﬁzierung mit Nutzername und Passwort](#nutzername-und-passwort)

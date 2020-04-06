@@ -170,8 +170,3 @@ HTTP/1.1 302 FOUND
 Location: /uebersicht
 Set-Cookie: sessionId=dd800897698f8e2637d5c39e33083764
 ```
-
-## Alte SSO Verfahren
-
-Die alten SSO Verfahren sind
-[hier dokumentiert](SSO-DEPRECATED.md)

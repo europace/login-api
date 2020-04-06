@@ -139,7 +139,26 @@ Bei den Credentials kann entweder
 2. Aus der JSON-Antwort das JWT (access_token) entnehmen
 3. Bei weiteren Requests muss dieses JWT als Authorization mitgeschickt werden.
 
+### Sonderfall: einloggen mit einer untergeordneten Partner ID
+Um zu verhindern, dass für jeden Nutzer ein API Key angefordert werden muss, oder dass Passwörter gespeichert werden, gibt es auch die Möglichkeit, SSO für eine beliebige
+Unterplakette durchzuführen. Dafür muss ein gesonderter Login-Endpunkt verwendet werden.
 
+Man benötigt dafür
+
+* den API Key der obersten Plakette in der Struktur (`SECRET` im Beispiel unten)
+* die Partner ID der Plakette die sich einloggen soll (`AB123` im Beispiel unten)
+
+````
+POST https://www.europace2.de/partnermanagement/login.api
+---
+Header:
+x-partnerid: AB123
+x-apikey: SECRET
+---
+````
+Im Respnse wird ein Cookie gesetzt namens `authentication`. Dieses ist ein JWT und kann im nächsten Schritt verwendet werden.
+
+Übrigens befindet sich ein Beispiel hierfür auch in unserer [Postman Collection](https://github.com/europace/api-schnellstart)
 
 ## Einloggen mit Access Token als Request Parameter
 

@@ -130,12 +130,7 @@ Im wesentlichen werden dafür 2 Schritte durchgeführt:
 
 Die Authentifizierung läuft über den OAuth2 Flow vom Typ ressource owner password credentials flow. https://tools.ietf.org/html/rfc6749#section-1.3.3
 
-Bei den Credentials kann entweder
-* der API Key und die Partner ID verwendet werden *oder*
-* Benutzernamen (E-Mail-Adresse) und Passwort eines Nutzers, der Zugzung zu BaufiSmart oder KreditSmart hat.
-
-### Schritte
-1. Absenden eines POST Requests auf den Login-Endpunkt mit Username und Password. https://api.europace.de/login
+1. Absenden eines POST Requests auf den Login-Endpunkt mit Username und Password. https://api.europace.de/login. Als Credentials werden die Partner ID und der API Key verwendet.
 2. Aus der JSON-Antwort das JWT (access_token) entnehmen
 3. Bei weiteren Requests muss dieses JWT als Authorization mitgeschickt werden.
 

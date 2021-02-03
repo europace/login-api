@@ -18,7 +18,7 @@ Neben der Standard-Login-Seite, stellt EUROPACE 2 seinen Partner zwei weitere We
 
 ### Partner Html-Login-Box
 
-Unter https://europace2.de/partnermanagement/partner-login-box.html steht eine minimale
+Unter [https://www.europace2.de/partnermanagement/partner-login-box.html](https://www.europace2.de/partnermanagement/partner-login-box.html) steht eine minimale
 HTML Seite zur Verfügung, welche die Eingabefelder für Benutzer und Passwort sowie
 eine Login-Button enthält. Die Seite enthält zusätzliche Komfort-Funktionen für Benutzer:
 
@@ -28,7 +28,7 @@ eine Login-Button enthält. Die Seite enthält zusätzliche Komfort-Funktionen f
 Diese Seite kann mittels iFrame direkt eingebettet werden:
 
 ```
-<iframe src="https://europace2.de/partnermanagement/partner-login-box.html"
+<iframe src="https://www.europace2.de/partnermanagement/partner-login-box.html"
 width="366px" height="250px" style="margin: 0px 0px 0px 0px;"></iframe>
 
 ```
@@ -52,7 +52,7 @@ Europace 2 folgenden Request absenden.
 Request
 
 ````
-POST https://www.europace2.de/partnermanagement/login.do?oeffne=%2FvorgangsManagementFrontend
+POST https://www.europace2.de/partnermanagement/login.do?redirectTo=%2Fvorgangsmanagement
 ---
 Header:
 Content-type: application/x-www-form-urlencoded;charset=UTF-8
@@ -62,7 +62,7 @@ username=Mustermann@beispiel.de&password=4711
 
 ````
 
-Der URL Parameter ''oeffne'' ist optional. Dieser kann benutzt werden,
+Der URL Parameter ''redirectTo'' ist optional. Dieser kann benutzt werden,
 um die Zieladresse nach erfolgreichem Login festzulegen.
 
 Response (korrekte Anmeldedaten):

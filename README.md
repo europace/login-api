@@ -1,13 +1,14 @@
 # Login API ("legacy")
 
-⚠️ Hinweis: die Autorisierung für die Europace APIs und SSO an der Plattform werden aktuell grundlegend überarbeitet. Es gibt einen neuen OAuth-fähigen [Autorisierungs-Server](https://github.com/europace/authorization-api) dessen Verwendung wir empfehlen. Bei Fragen bitte an devsupport@europace2.de schreiben.
+** ⚠️ ALLE VERFAHREN DIE HIER BESCHRIEBEN WERDEN DEMNÄCHST NICHT MEHR FUNKTIONIEREN ⚠️ **
+
+ACHTUNG: die Autorisierung für die Europace APIs und SSO an der Plattform wurde grundlegend überarbeitet. Es gibt einen neuen OAuth-fähigen [Autorisierungs-Server](https://github.com/europace/authorization-api) dessen Verwendung wir empfehlen. 
 
 
-Es gibt 2 Authentifizierungs-Möglichkeiten um auf das EUROPACE System zuzugreifen:
-* [Authentiﬁzierung mit Nutzername und Passwort](#nutzername-und-passwort)
-* [Anmeldung via _Silent Sign On (SSO)_](#silent-sign-on)
 
-Bei Fragen und Anregungen entweder ein Issue in GitHub anlegen oder an [devsupport@europace2.de](mailto:devsupport@europace2.de) schreiben.
+Bei Fragen bitte an devsupport@europace2.de schreiben.
+
+
 
 # Nutzername und Passwort
 
